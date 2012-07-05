@@ -6,6 +6,7 @@ gem 'sqlite3'
 gem 'haml'
 gem 'jquery-rails'
 gem 'twitter-bootstrap-rails', :git => "http://github.com/seyhunak/twitter-bootstrap-rails", :branch => "static"
+gem 'heroku'
 
 # Gems used only for assets and not required
 # in production environments by default.

@@ -1,0 +1,77 @@
+.row
+	.span10.offset1.lead
+		Latest updates
+
+.row
+	.span8.offset1
+		.well
+			%strong
+				= link_to 'Stanislas Lhomme', user2_path, :style => 'color:black' 
+			has added a new project:
+			= link_to '263-Bayer CropSciences - Axmi115v02', project_path
+			%h6.pull-right
+				2 hours ago
+			%hr/
+			%strong
+				= link_to 'Cécile Ducasse', '#', :style => 'color:black' 
+			has made a comment about the project
+			= link_to '255-Algeta', project2_path
+			= ":"
+			%h6.pull-right
+				3 days ago
+			%br/
+			%br/
+			%blockquote
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. 
+			%hr/
+			%strong
+				= link_to 'Joana Pech', '#', :style => 'color:black' 
+			has updated the project
+			= link_to 'PX15-TSI-M5', project3_path
+			%h6.pull-right
+				3 days ago
+			%br/
+
+.row
+	.span10.offset1.lead
+		Search
+	.span10.offset2
+		%form.form-horizontal
+			.input-append
+				%input#search.input-xxlarge{ :placeholder => 'Type your search' }
+					%button.btn.btn-large.btn-primary{ :style => 'margin-left:-4px;'}
+						%i.icon-search
+	.span10.offset1.lead
+		Results
+	.span11.offset1.well
+		.pull-right
+			%span.label.label-info	Nervous system
+			%span.label.label-info	Heavy chain
+			%span.label.label-info	Mouse
+		%h3
+			= link_to '260-Bioartic Neuroscience IgG2asouris', '#'
+		%h4
+			Sequencing of a monoclonal antibody’s heavy chain
+		%br/
+		BioArtic Neuroscience AB is providing innovative and effective treatments	for patients with central 
+		nervous system disorders...
+		%hr/
+		.pull-right
+			%span.label.label-info	Mammalian
+			%span.label.label-info	Expression
+		%h3
+			= link_to 'CR6-Galderma', '#'
+		%h4
+			Production of the LBD of human LXR β with ligand CD5995 
+		%hr/
+		.pull-right
+			%span.label.label-info	Rattus
+			%span.label.label-info	Inclusion bodies
+			%span.label.label-info	Oxidase
+		%h3
+			= link_to '210-Solvay DAAO', '#'
+		%h4
+			Production of rattus D amino acid oxidase (rDAAO) and murine D amino acid oxidase (mDAAO)
+		%br/
+		This proposal addresses the evaluation of the purificability of the rattus and murine DAAO (recombinant D amino acid oxidase) in E coli

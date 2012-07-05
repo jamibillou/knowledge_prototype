@@ -1,0 +1,69 @@
+.row
+	.span10.offset1.lead
+		My profile
+
+.row
+	.span8.offset1
+		.well
+			.pull-right
+				= image_tag 'christophe.jpg', :style => 'width:100px;height:100px;'
+			%table
+				%tr
+					%td
+						%strong	Full name
+					%td
+						%input.input-medium{ :value => 'Christophe', :style => 'margin-top: 7px;' }
+						%input.input-medium{ :value => 'Martin', :style => 'margin-top: 7px;' }
+				%tr
+					%td
+						%strong Job title
+					%td
+						%input.input-medium{ :value => 'Production manager', :style => 'margin-top: 7px;' }
+				%tr
+					%td
+						%strong Login
+					%td
+						%input.input-medium{ :value => 'cmartin', :style => 'margin-top: 7px;' }
+				%tr
+					%td
+						%strong Password
+					%td
+						%input.input-medium{ :type => 'password', :placeholder => 'Type your password', :style => 'margin-top: 7px;' }
+			.btn.btn-large.btn-primary
+				Submit your changes
+
+.row
+	.span10.offset1.lead
+		Projects where I am involved
+
+	.span11.offset1.well
+		.pull-right
+			%span.label.label-info	soluble
+			%span.label.label-info	oxidase
+		%h3
+			= link_to '245-PO-Inserm Lyon', '#'
+		%h4
+			Feasibility study for the production of the Putrescine oxidase protein from Kocuria rosea
+		%br/
+		The program described hereafter presents a feasibility study aiming at the production of a 10 mg scale batch of putrescine oxidase using E. Coli expression system...
+		%hr/
+		.pull-right
+			%span.label.label-info	refolding
+		%h3
+			= link_to '235-QMUL-scFv', '#'
+		%h4
+			Process development and GMP manufacturing of a therapeutic scFv candidate
+		%br/
+		PX'Therapeutics is currently performing a Research Grade Feasability Study for the production of a recombinant scFv fragment in E.Coli for Oncobiopharm...
+		%hr/
+		.pull-right
+			%span.label.label-info	HIV
+			%span.label.label-info	gp41
+			%span.label.label-info	antibody
+			%span.label.label-info	vaccine
+		%h3
+			= link_to 'PX19-Euroneut 41 candidat parenteral', '#'
+		%h4
+			European consortium on neutralising antibodies using gp41
+		%br/
+		EuroNeut-41 is developing new vaccines able to elicit neutralising antibodies that block entry of HIV into cells, at mucosal sites and in blood...

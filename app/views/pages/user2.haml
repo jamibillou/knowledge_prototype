@@ -1,0 +1,69 @@
+.row
+	.span8.offset1
+		.well
+			.pull-right
+				= image_tag 'stan.jpg', :style => 'width:100px;height:100px;'
+			%h2	Stanislas Lhomme - Project Manager
+			%br/
+			%br/
+			%br/
+			%br/
+			%h3	Latest activity
+			%br/
+			Added a new project:
+			= link_to '263-Bayer CropSciences - Axmi115v02', project_path
+			%h6.pull-right
+				2 hours ago
+			%hr/
+			Commented about the project
+			= link_to '255-Algeta', project2_path
+			= ":"
+			%h6.pull-right
+				Yesterday
+			%br/
+			%br/
+			%blockquote
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. 
+			%hr/
+			Updated the project
+			= link_to 'PX15-TSI-M5', project3_path
+			%h6.pull-right
+				One week ago
+			%br/
+
+.row
+	.span10.offset1.lead
+		Projects where Stanislas is involved
+
+	.span11.offset1.well
+		.pull-right
+			%span.label.label-info	soluble
+			%span.label.label-info	oxidase
+		%h3
+			= link_to '245-PO-Inserm Lyon', '#'
+		%h4
+			Feasibility study for the production of the Putrescine oxidase protein from Kocuria rosea
+		%br/
+		The program described hereafter presents a feasibility study aiming at the production of a 10 mg scale batch of putrescine oxidase using E. Coli expression system...
+		%hr/
+		.pull-right
+			%span.label.label-info	refolding
+		%h3
+			= link_to '235-QMUL-scFv', '#'
+		%h4
+			Process development and GMP manufacturing of a therapeutic scFv candidate
+		%br/
+		PX'Therapeutics is currently performing a Research Grade Feasability Study for the production of a recombinant scFv fragment in E.Coli for Oncobiopharm...
+		%hr/
+		.pull-right
+			%span.label.label-info	HIV
+			%span.label.label-info	gp41
+			%span.label.label-info	antibody
+			%span.label.label-info	vaccine
+		%h3
+			= link_to 'PX19-Euroneut 41 candidat parenteral', '#'
+		%h4
+			European consortium on neutralising antibodies using gp41
+		%br/
+		EuroNeut-41 is developing new vaccines able to elicit neutralising antibodies that block entry of HIV into cells, at mucosal sites and in blood...

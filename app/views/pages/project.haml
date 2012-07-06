@@ -78,7 +78,7 @@
 			%br/
 			.row
 				.span1{ :style => 'margin-bottom:20px;'}
-					= image_tag 'default_user.jpg', :style => 'width:80px;height:80px;'
+					= link_to image_tag('default_user.jpg',:style => 'width:80px;height:80px;'), '#'
 				.span9
 					%h6.pull-right
 						2 days ago
@@ -88,7 +88,7 @@
 					Yay, this project was so fantastic, such a success story!!
 			.row
 				.span1{ :style => 'margin-bottom:20px;'}
-					= image_tag 'pierremarie.jpg', :style => 'width:80px;height:80px;'
+					= link_to image_tag('pierremarie.jpg',:style => 'width:80px;height:80px;'), '#'
 				.span9	
 					%h6.pull-right
 						YESTERDAY
@@ -98,7 +98,7 @@
 					Well, we had a couple of issues all along the process....
 			.row
 				.span1{ :style => 'margin-bottom:20px;'}
-					= image_tag 'christophe.jpg', :style => 'width:80px;height:80px;'
+					= link_to image_tag('christophe.jpg',:style => 'width:80px;height:80px;'), user_path
 				.span9	
 					%strong
 						Add a comment:

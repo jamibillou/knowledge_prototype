@@ -1,0 +1,89 @@
+.row
+	.span11
+		%h1
+			210-Solvay DAAO
+	%br/
+	.span11.offset1{ :style => 'margin-top:20px;' }
+		.well
+			%h6 GENERAL INFO
+			.pull-right
+				%span.label.label-info	Rattus
+				%span.label.label-info	Inclusion bodies
+				%span.label.label-info	Oxidase
+			.lead
+				Proteins: DAAO Rattus norvegicus (Rat), DAAO Mus musculus (Mouse)
+				%br/
+				Protein family: DAAO
+				%br/
+				Expression system: E.Coli
+			%p
+				This proposal addresses the production of 5 mg scale batches of rattus and murine DAAO (recombinant D amino acid oxidase) in E coli for  enzymatic activity.
+				%br/
+				The programme described hereafter is based on the assumption that all constructs will be mainly expressed as soluble fractions. Should some proteins be produced as inclusion bodies and require development of refolding conditions, we would propose complementary steps. 
+			.lead
+				Sequences:
+			%pre
+				MRVAVIGAGVIGLSTALCIHERYHPAQPLHMKIYADRFTPFTTSDVAAGLWQPYLSDPSNPQEAEWNQQTFDHLQSCLHSPNAEKMGLALISGYNLFRDEVPDPFWKSTVLGFRKLTPSELDMFPDYSYGWFNTSLLLEGKSYLSWLTERLTERGVKFIHRKVASFEEVVRGGVDVIINCTGVWAGALQADASLQPGRGQIIQVEAPWIKHFILTHDPSLGIYNSPYIIPGSKTVTLGGVFQLGNWSELNSVHDHNTIWKSCCQLEPTLKNARIMGELTGFRPVRPQVRLERERLRFGSSSAEVIHNYGHGGYGLTIHWGCAMEAANLFGKILEEKNLSRMPPSHL
+			%pre
+				MRVAVIGAGVIGLSTALCIHERYHPTQPLHMKIYADRFTPFTTSDVAAGLWQPYLSDPSNPQEAEWSQQTFDYLLSCLHSPNAEKMGLALISGYNLFRDEVPDPFWKNAVLGFRKLTPSEMDLFPDYGYGWFNTSLLLEGKSYLPWLTERLTERGVKLIHRKVESLEEVARGVDVIINCTGVWAGALQADASLQPGRGQIIQVEAPWIKHFILTHDPSLGIYNSPYIIPGSKTVTLGGIFQLGNWSGLNSVRDHNTIWKSCCKLEPTLKNARIVGELTGFRPVRPQVRLEREWLRHGSSSAEVIHNYGHGGYGLTIHWGCAMEAANLFGKILEEKKLSRLPPSHL
+	.span5.offset1
+		.well
+			%h6 PX
+			%strong
+				Project manager(s) : 
+			= link_to 'Stanislas Lhomme', user2_path 
+			%br/
+			%strong
+				Involved people :
+			= link_to 'Joana Pech', user3_path
+			,
+			= link_to 'Sandrine Bagnos', '#'
+	.span5.offset1
+		.well
+			%h6 CUSTOMER
+			%strong
+				Company :
+			Solvay Pharmaceuticals
+			%br/
+			%strong
+				Contact(s) :
+			Nathalie Picard
+			%a{ :href => '#' }
+				%i.icon-briefcase 
+				Contact info
+	.span5.offset1
+		.well
+			%h6 RELATED FILES
+			%strong
+				Protein sheet: 
+			%a{ :href => '#' }
+				%i.icon-file
+				Download file	
+			%br/
+			%strong
+				Tux folder:
+			\\\Tux\production_px\a facon\263-Bayer CropSciences - Axmi115v02\1 - Devis - Order - Documents clients
+	.span5.offset1
+		.well
+			%h6 LAB BOOKS
+			%strong
+				355, 356, 357: 
+			scientific offices closet
+			
+	.span11.offset1
+		.well
+			%h6 COMMENTS
+			%br/
+			No comments yet...
+			%br/
+			%br/
+			.row
+				.span1{ :style => 'margin-bottom:20px;'}
+					= link_to image_tag('christophe.jpg',:style => 'width:80px;height:80px;'), user_path
+				.span9	
+					%strong
+						Add a comment:
+					%br/
+					%textarea{ :rows => '3', :style => 'width:300px;' }
+					%button.btn.btn-large Submit
+					
